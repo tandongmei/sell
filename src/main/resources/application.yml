@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.43.121/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  context-path: /sell
+
+#  微信配置
+wechat:
+  appId: wx67b1b4d71f8ccade
+  appSecret: 61e06c0395cd257cccea02f8e2c8f307
+
